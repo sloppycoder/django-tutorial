@@ -5,6 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Test",
+      "type": "python",
+      "request": "launch",
+      "program": "manage.py",
+      "args": ["test", "polls"],
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
